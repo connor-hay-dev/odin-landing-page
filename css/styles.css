@@ -25,17 +25,34 @@ body {
 .container {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     padding: 50px;
 }
 
 .heading_and_description {
+    display: flex;
+    flex-direction: column;
     width: 40vw;
+    gap: 20px;
+}
+
+#signup-button {
+    color: white;
+    background-color: #3882F6;
+    align-self: flex-start;
+    height: 30px;
+    border-radius: 10px;
 }
 
 .main_text {
     color: white;
     font-size: 48px;
     font-weight: 900;
+}
+
+.secondary_text {
+    color: #e5e7eb;
+
 }
 
 .image_placeholder {
@@ -45,7 +62,11 @@ body {
     border-radius: 50px;
 }
 
-
+.information_header {
+    font-weight: 900;
+    font-size: 36px;
+    color: #1F2937;
+}
 
 .moodeng_images img {
     width: 20vw;
@@ -54,12 +75,22 @@ body {
     border-radius: 10px;
 }
 
+.moodeng_images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-size: large;
+    color: gray;
+}
+
 .container_1 {
     display: flex;
     flex-direction: column;
     align-items:center;
     justify-content: space-between;
     gap: 10px;
+    margin-bottom: 50px;
 }
 
 .information_header {
@@ -71,4 +102,30 @@ body {
     justify-content: center;
     width: 100vw;
     gap: 5%
+}
+
+.container_2 {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+
+}
+
+.quote {
+    width: 50vw;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: rgb(77, 75, 75)
+}
+
+.quote_author {
+    align-self:center;
+    margin-left: 300px;
+    margin-top: 30px;
+    font-weight: bold;
+    color: rgb(77, 75, 75);
+    font-size: 20px;
 }
