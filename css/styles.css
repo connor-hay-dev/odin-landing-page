@@ -36,12 +36,14 @@ body {
     gap: 20px;
 }
 
-#signup-button {
-    color: white;
+.signup-button {
+    border: 2px solid white;
     background-color: #3882F6;
-    align-self: flex-start;
-    height: 30px;
-    border-radius: 10px;
+    border-radius: 8px;
+    width: 110px;
+    height: 40px;
+    color: white;
+    font-weight: 600;
 }
 
 .main_text {
@@ -71,7 +73,7 @@ body {
 .moodeng_images img {
     width: 20vw;
     height: auto;
-    border: 2px solid #3882F6;
+    border: 5px solid #3882F6;
     border-radius: 10px;
 }
 
@@ -128,4 +130,48 @@ body {
     font-weight: bold;
     color: rgb(77, 75, 75);
     font-size: 20px;
+}
+
+.container_3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5%;
+}
+
+.action_button_container {
+    background-color:#3882F6;
+    height: 20vh;
+    width: 50vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+}
+
+
+#big {
+    color: white;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+#small {
+    color: white;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+
+footer {
+    background-color: #1F2937;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#copyright {
+    padding-left: 100px;
 }
